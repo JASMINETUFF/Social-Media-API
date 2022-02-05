@@ -13,7 +13,6 @@ username: {
       type: String,
       required: true,
       unique: true,
-      validate: [validateEmail, 'Please fill a valid email address'],
       // Used REGEX to validate the email
       match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please fill a valid email address']
     },
@@ -43,7 +42,7 @@ userSchema.virtual('friendCount').get(function() {
 })
 
 // create the Users model using the Users Schema
-const User = model('user', userSchema);
+const user = model('user', userSchema);
 
 // Export Users module
-module.exports = User;
+module.exports = user;
