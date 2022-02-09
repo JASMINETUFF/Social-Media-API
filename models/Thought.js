@@ -2,24 +2,22 @@ const { Schema, model } = require('mongoose');
 const reactionSchema = require('./Reaction');
 const dateFormat = require('../utils/dateFormat');
 
-// Schema to create thoughts model
-const thoughtsSchema = new Schema({
-thoughtsText: {
+const thoughtSchema = new Schema(
+  {
+    thoughtText: {
       type: String,
-      required: 'Sorry! Cant leave this empty. Give us your thoughts!',
+      required: 'You need to leave a thought!',
       minlength: 1,
       maxlength: 280
     },
     createdAt: {
       type: Date,
-      // Returns the numeric value corresponding to the current time
       default: Date.now,
-      // Plugged in Moments JS
       get: timestamp => dateFormat(timestamp)
     },
     username: {
       type: String,
-      required: true      
+      required: true
     },
     reactions: [reactionSchema]
   },
@@ -31,10 +29,10 @@ thoughtsText: {
   }
 );
 
-thoughtsSchema.virtual('reactionCount').get(function(){
+thoughtSchema.virtual('reactionCount').get(function() {
   return this.reactions.length;
 });
 
-const thoughts = model('thoughts', thoughtsSchema);
+const Thought = model('Thought', thoughtSchema);
 
-module.exports = thoughts;
+module.exports = Thought;
