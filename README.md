@@ -1,6 +1,6 @@
 # 18 Social Network API
  
-  ![alt text](https://github.com/jasminetuff/Social-Network-API/tree/master/demoPic.png?raw=true)
+  ![alt text](https://github.com/JASMINETUFF/Social-Media-API/blob/main/demoPic.png?raw=true)
 
   
   ## Description
