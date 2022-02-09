@@ -29,7 +29,7 @@
 
     ## Demo
   
-  To install necessary dependencies, run the following command:
+ To view the walkthrough videos please click the links below: 
 
   *[Walk-through part 1](https://bit.ly/socialNetworkAPI_Walkthrough_1)
 
