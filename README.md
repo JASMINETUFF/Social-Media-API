@@ -41,6 +41,6 @@
   
   ## Questions
   
-  If you have any questions about the repo, open an issue or contact me directly at JRSMXDEV@GMAIL.COM. You can find more of my work at [Jasmine Tuff](https://github.com/Jasmine Tuff/).Also feel free to view more of my work by visiting my portfolio [here!](https://jasminetuff.github.io/Portfolio/Index.html)
+  If you have any questions about the repo, open an issue or contact me directly at JRSMXDEV@GMAIL.COM. You can find more of my work at [Jasmine Tuff](https://github.com/JasmineTuff/).Also feel free to view more of my work by visiting my portfolio [here!](https://jasminetuff.github.io/Portfolio/Index.html)
   
   
