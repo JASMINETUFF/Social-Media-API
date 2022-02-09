@@ -27,7 +27,7 @@
   npm start
   ```
 
-    ## Demo
+## Demo
   
  To view the walkthrough videos please click the links below: 
 
